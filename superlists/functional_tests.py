@@ -1,26 +1,22 @@
 from selenium import webdriver
+import unittest
 
-browser = webdriver.Firefox()
-
-#user navigates to our home page
-browser.get('http://127.0.0.1:8000')
 
 #looks at page title
-assert 'To-Do' in browser.title
+class NewVisitorTest(unittest.TestCase):
 
-#Enters a todo item straight away (Buy peacock feathers)
+		
+		def setUp(self):
+				self.browser = webdriver.Firefox()
 
-#Hits enter, page updates and lists
-#1: Buy peacock feathers" as item in to-do list
+		def tearDown(self):
+				self.browser.quit()
 
-#still a box to add another item
-#enters (Use peacock feathers to make a fly)
+		def test_can_start_a_list_and_retrieve_it_later(self):
+				self.browser.get('http://127.0.0.1:8000')
 
-#page updates, both items in list
+				self.assertIn('To-Do', self.browser.title)
+				self.fail('Finish the test!')
 
-#wonders whether site remembers the list, visits the unique url of list,
-#list is still there
-
-#satisfied, user leaves
-
-browser.quit()
+if __name__ == '__main__':
+		unittest.main(warnings='ignore')

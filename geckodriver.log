@@ -1,0 +1,21 @@
+1482202857434	geckodriver	INFO	Listening on 127.0.0.1:38655
+1482202857441	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.kNA2Z9AvQBMA
+1482202857441	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482202857444	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46097
+1482202858480	Marionette	INFO	Listening on port 46097
+1482202953101	geckodriver	INFO	Listening on 127.0.0.1:42533
+1482202954141	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HBH9lq5WAdz7
+1482202954142	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482202954146	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33371
+1482202954691	Marionette	INFO	Listening on port 33371
+1482203262007	geckodriver	INFO	Listening on 127.0.0.1:56921
+1482203262010	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.nAx9mUDIA6fT
+1482203262011	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482203262011	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36873
+1482203262535	Marionette	INFO	Listening on port 36873
+JavaScript error: chrome://marionette/content/listener.js, line 1026: NS_ERROR_UNKNOWN_PROTOCOL: 
+1482203293609	geckodriver	INFO	Listening on 127.0.0.1:34323
+1482203294611	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.zewaLNjfrUDe
+1482203294611	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482203294612	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34059
+1482203295110	Marionette	INFO	Listening on port 34059

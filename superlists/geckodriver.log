@@ -413,3 +413,17 @@ Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with rea
 ###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
 
 [Child 2758] ###!!! ABORT: Aborting on channel error.: file /build/firefox/src/firefox-50.1.0/ipc/glue/MessageChannel.cpp, line 2056
+1482208896405	geckodriver	INFO	Listening on 127.0.0.1:60251
+1482208897411	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.9Xb2Ccakf7k0
+1482208897412	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482208897415	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38353
+1482208897974	Marionette	INFO	Listening on port 38353
+[Child 3541] ###!!! ABORT: Aborting on channel error.: file /build/firefox/src/firefox-50.1.0/ipc/glue/MessageChannel.cpp, line 2056
+[Child 3541] ###!!! ABORT: Aborting on channel error.: file /build/firefox/src/firefox-50.1.0/ipc/glue/MessageChannel.cpp, line 2056
+1482208939169	geckodriver	INFO	Listening on 127.0.0.1:40899
+1482208940176	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.6RXJgZBd9TeA
+1482208940177	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482208940180	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33137
+1482208940753	Marionette	INFO	Listening on port 33137
+[Child 3678] ###!!! ABORT: Aborting on channel error.: file /build/firefox/src/firefox-50.1.0/ipc/glue/MessageChannel.cpp, line 2056
+[Child 3678] ###!!! ABORT: Aborting on channel error.: file /build/firefox/src/firefox-50.1.0/ipc/glue/MessageChannel.cpp, line 2056

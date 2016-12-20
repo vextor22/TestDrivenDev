@@ -19,3 +19,8 @@ JavaScript error: chrome://marionette/content/listener.js, line 1026: NS_ERROR_U
 1482203294611	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
 1482203294612	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34059
 1482203295110	Marionette	INFO	Listening on port 34059
+1482203980947	geckodriver	INFO	Listening on 127.0.0.1:33375
+1482203981949	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uMF0OKv4QLVx
+1482203981950	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482203981951	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42585
+1482203982442	Marionette	INFO	Listening on port 42585

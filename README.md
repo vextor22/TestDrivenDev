@@ -7,9 +7,10 @@ After a long day at work I have my laptop configured for this project, and can n
 on the go.
 
 Necessary steps for configuration of project:
-After installing the requisite software listed in the book:
-1. Download geckodriver
-2. Put geckodriver in a reasonable place
-3. Add geckodriver to the path (export PATH=$PATH:/path/to/driver)
-4. Run manager.py makemigrations and migrate to set up database
-5. Run functional test to verify setup
+
+1. After installing the requisite software listed in the book:
+  1. Download geckodriver
+  2. Put geckodriver in a reasonable place
+  3. Add geckodriver to the path (export PATH=$PATH:/path/to/driver)
+  4. Run manager.py makemigrations and migrate to set up database
+  5. Run functional test to verify setup
